@@ -30,4 +30,6 @@ To install and run the project, follow these steps:
 To generate documentation for a Python file:
 
 ```bash
-python -m src.cli your_python_file.py
+python -m src.cli your_python_file.
+
+

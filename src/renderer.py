@@ -1,9 +1,15 @@
 class DocumentationRenderer:
     def __init__(self, functions, classes):
+        """
+        Initialize the renderer with functions and classes extracted from the code.
+        """
         self.functions = functions
         self.classes = classes
 
     def render_markdown(self):
+        """
+        Generate Markdown documentation for the functions and classes.
+        """
         markdown = "# Documentation\n\n"
 
         # Classes

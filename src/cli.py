@@ -3,6 +3,10 @@ from .parser import CodeParser
 from .renderer import DocumentationRenderer
 
 def main():
+    """
+    Main function that parses command line arguments, generates documentation,
+    and writes it to a Markdown file.
+    """
     parser = argparse.ArgumentParser(description="Generate documentation from Python code.")
     parser.add_argument("filepath", help="Path to the Python file")
     args = parser.parse_args()
